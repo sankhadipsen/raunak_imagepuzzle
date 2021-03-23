@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Slider Puzzle Game</title>
+	<link rel="stylesheet" href="ImageGame.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="img-container">
+	<div id="img-container-title">Choose Image For Puzzle</div>
+	<span class="imageselect"><img src="Resources/Images/Image1/frame.jpg" height="150px" width="150px" class="imgsel" name="Image1"></span>
+	<span class="imageselect"><img src="Resources/Images/dog/frame.jpg" height="150p" width="150px" class="imgsel" name="dog"></span>
+	<span class="imageselect"><img src="Resources/Images/earth/frame.jpg" height="150p" width="150px" width="150px" class="imgsel" name="earth"></span>
+	<span class="imageselect"><img src="Resources/Images/pug/frame.jpg" height="150px" width="150px" class="imgsel" name="pug"></span>
+</div></div>
+<div id="heading_Container">
+<div id="changeimage"></div>
+<div id="head">Image Slidding Puzzle</div>
+</div>
+<div id="frame"></div>
+<div id="game">
+	<li class="tile" id="1"><span class="number">1</span></li>
+	<li class="tile" id="2"><span class="number">2</span></li>
+	<li class="tile" id="3"><span class="number">3</span></li>
+	<li class="tile" id="4"><span class="number">4</span></li>
+	<li class="tile" id="5"><span class="number">5</span></li>
+	<li class="tile" id="6"><span class="number">6</span></li>
+	<li class="tile" id="7"><span class="number">7</span></li>
+	<li class="tile" id="8"><span class="number">8</span></li>
+	<li class="tile" id="blank"><span></span></li>
+</div>
+<div id="help"><input type="checkbox" name="enablehelp" onchange="shownumbers();">Enable Help</div>
+<script src="ImageGame.js"></script>
+</body>
+<footer>
+    <p>-: Created By RaunakBag :-</p>
+</footer>
+</html>
